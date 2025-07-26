@@ -6,45 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-egg-info/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
 
-# Jupyter Notebook
-.ipynb_checkpoints
 
 # PyInstaller
 *.manifest
 *.spec
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
+
 
 # Translations
 *.mo
@@ -93,12 +61,9 @@ Pipfile.lock
 # Cython debug symbols
 cython_debug/
 
-# VS Code
-.vscode/
 
-# Model files
-*.h5
-*.keras
+
+
 
 # Exclude image dataset
 PlantVillage/
@@ -106,9 +71,6 @@ PlantVillage/
 # Docker
 
 
-# Node
-frontend/node_modules/
-frontend/build/
 
 # Mac
 .DS_Store
